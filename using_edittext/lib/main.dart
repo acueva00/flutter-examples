@@ -30,7 +30,7 @@ class MyEditTextState extends State<MyEditText> {
             crossAxisAlignment: CrossAxisAlignment.stretch,
             children: <Widget>[
               new TextField(
-                decoration: new InputDecoration(hintText: "Enter text here..."),
+                decoration: new InputDecoration(hintText: "Ingrese texto aquí..."),
                 onSubmitted: (String str) {
                   setState(() {
                     results = results + "\n" + str;
